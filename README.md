@@ -148,6 +148,12 @@ Skills are categorized by documentation depth:
    ./scripts/install_opencode_skills.sh --global
    ```
 
+   On Windows (PowerShell 7+):
+
+   ```powershell
+   .\scripts\install_opencode_skills.ps1 -Global   # the --global spelling also works
+   ```
+
 2. Start OpenCode:
 
    ```bash
@@ -174,6 +180,12 @@ Skills are categorized by documentation depth:
 
    ```bash
    ./scripts/install_opencode_skills.sh --project
+   ```
+
+   On Windows (PowerShell 7+):
+
+   ```powershell
+   .\scripts\install_opencode_skills.ps1 -Project   # the --project spelling also works
    ```
 
 2. Start OpenCode in your project:
